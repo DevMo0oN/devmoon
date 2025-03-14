@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head class="cd-header">
+<head>
   <link rel="stylesheet" href="style.css">
   <div class="header-wrapper">
     <div class="logo-wrap">
       <a href="#" class="hover-target"><span>Dev</span>Moon</a>
-    </div>
-    <div class="nav-but-wrap">
-      <div class="menu-icon hover-target">
-        <span class="menu-icon__line menu-icon__line-left"></span>
-        <span class="menu-icon__line"></span>
-        <span class="menu-icon__line menu-icon__line-right"></span>
-      </div>          
-    </div>          
+    </div>             
   </div>  
 </head>
 
-<body >
+<body>
+  <div class="container">
+    <div class="card-container">
+      <div class="card">
+        <div class="heading">
+          <img src="./ic_moon.png">
+        </div>
+          <p href="#" class="btn-shine">devmoon</a>
+        <p class="container">Version 2 . 1
+      </p></div>
+    </div>
+    
+    <button class="center-button" onclick="downloadFile()">Download</button>
+    
+    <script>
+      function downloadFile() {
+          const link = document.createElement('a');
+          link.href = "https://github.com/DevMo0oN/devmoon/releases/download/devmoon/devmoon.apk";
+          link.download = "devmoon.apk"; // نام فایل
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+      }
+  </script>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
