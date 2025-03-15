@@ -13,47 +13,51 @@
 
   
 
-  <div class="header-wrapper">
-    <div class="logo-wrap">
-      <a href="#" class="hover-target"><span>Dev</span>Moon</a>
-    </div>             
-  </div>  
 
 
 
-  <div class="container">
+  
 
-    <div class="terminal-loader">
-      <div class="terminal-header">
-        <div class="terminal-title">AmiR</div>
-        <div class="terminal-controls">
-          <div class="control close"></div>
-          <div class="control minimize"></div>
-          <div class="control maximize"></div>
-        </div>
-      </div>
-      <div class="text">Made with love...</div>
-    </div>
+  <div class="carousel-container">
     
-    <div class="card-container">
-      <div class="card">
-        <div class="heading">
-          <img src="./ic_moon.png" alt="DevMoon Logo">
+    <div class="container">
+
+      <div class="carousel-container">
+
+        <div class="card">
+          <p class="card-text">بخش دانلود برنامه</p>
+          <button type="button" class="btn" onclick="openLink('https://devmo0on.github.io/devmoon/update')">
+            <strong>Download</strong>
+            <div id="container-stars">
+              <div id="stars"></div>
+            </div>
+            <div id="glow">
+              <div class="circle"></div>
+              <div class="circle"></div>
+            </div>
+          </button>
         </div>
-        <p class="btn-shine">devmoon</p>
-        <p class="container" >Version 2 . 1</p>
-      </div>
+
+        <div class="card">
+          <p class="card-text">بخش اموزش برنامه</p> 
+          <button type="button" class="btn" onclick="openLink('https://devmo0on.github.io/devmoon/tutorial')">
+            <strong>Tutorial</strong>
+            <div id="container-stars">
+              <div id="stars"></div>
+            </div>
+            <div id="glow">
+              <div class="circle"></div>
+              <div class="circle"></div>
+            </div>
+          </button>
+        </div>
+        
+      
+
+
     </div>
-    
-    <button class="center-button" onclick="downloadFile()">Download</button>
   </div>
-
-  <script>
-    function downloadFile() {
-        window.open("https://github.com/DevMo0oN/devmoon/releases/download/devmoon/devmoon.apk", "_blank");
-    }
-  </script>
-
+  
   <script src="script.js"></script>
 </body>
 </html>
