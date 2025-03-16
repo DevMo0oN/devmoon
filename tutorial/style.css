@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('./IranianSans.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 
 body{
@@ -196,6 +203,7 @@ a:hover {
 
 .p {
   color: rgb(255, 255, 255);
+  font-family: 'MyCustomFont', Arial, sans-serif;
   font-size: 0.75em;
 }
 
