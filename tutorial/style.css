@@ -216,11 +216,11 @@ a:hover {
 
 
 
-/* تنظیمات برای تصویر داخل کارت */
+
 .card-image {
-  width: 100%; /* تصویر به اندازه عرض کارت تنظیم می‌شود */
-  height: auto; /* ارتفاع تصویر متناسب با عرضش تنظیم می‌شود */
-  border-radius: 10px; /* گوشه‌های تصویر به شکل گرد درمی‌آید */
-  object-fit: cover; /* اطمینان از پوشش کامل تصویر */
-  margin-bottom: 10px; /* فاصله‌ای بین تصویر و متن */
+  width: 100%; 
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 0px; 
 }
