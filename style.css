@@ -3,8 +3,6 @@
   src: url('/fonts/myfont.ttf') format('truetype'); 
   font-weight: normal;
   font-style: normal;
-
-  
 }
 
 
@@ -23,10 +21,11 @@ a {
   cursor: pointer;
 }
 
-a412 {
+
+
+a313 {
   cursor: pointer;
 }
-
 
 a:hover {
   text-decoration: none;
