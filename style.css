@@ -24,7 +24,6 @@ a:hover {
   text-decoration: none;
 }
 
-/* #Primary style ================================================== */
 
 .section {
   position: relative;
@@ -40,7 +39,6 @@ a:hover {
   height: 100vh;
 }
 
-/* #Navigation ================================================== */
 .cd-header {
   position: fixed;
   width: 100%;
