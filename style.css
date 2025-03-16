@@ -1,9 +1,10 @@
 @font-face {
   font-family: 'MyCustomFont';
-  src: url('./IranianSans.ttf') format('ttf');
+  src: url('/fonts/myfont.ttf') format('truetype'); 
   font-weight: normal;
   font-style: normal;
 }
+
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -114,7 +115,7 @@ a:hover {
 
 .card .preloader {
   position: absolute;
-  top: 10px;  /* پیش‌لودر را بالای کارت قرار می‌دهیم */
+  top: 10px;  
   left: 50%;
   transform: translateX(-50%);
   display: flex;
