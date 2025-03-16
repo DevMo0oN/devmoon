@@ -179,6 +179,7 @@ a:hover {
   margin-bottom: auto;
   text-align: center;
   position: relative;
+  font-family: 'MyCustomFont', Arial, sans-serif;
   z-index: 2;
 }
 
