@@ -22,16 +22,6 @@ a {
 }
 
 
-
-a313 {
-  cursor: pointer;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-
 .section {
   position: relative;
   width: 100%;
