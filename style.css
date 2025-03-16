@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/IranianSans.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+
+  font-family: 'MyCustomFont', Arial, sans-serif;
+
+
+}
+
+
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
