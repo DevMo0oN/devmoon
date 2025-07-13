@@ -43,11 +43,16 @@
     <button class="center-button" onclick="downloadFile()">Download</button>
   </div>
 
-  <script>
-    function downloadFile() {
-        window.open("https://github.com/DevMo0oN/devmoon/releases/download/v-3.5/devmoon.apk", "_blank");
-    }
-  </script>
+<script>
+  function downloadFile() {
+    const link = document.createElement('a');
+    link.href = "https://github.com/DevMo0oN/devmoon/releases/download/v-3.5/devmoon.apk";
+    link.download = ""; // می‌تونه اسم فایل هم باشه: "devmoon.apk"
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+</script>
 
   <script src="script.js"></script>
 </body>
